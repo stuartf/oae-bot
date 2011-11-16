@@ -9,7 +9,7 @@ module.exports = (robot) ->
       if cache.length > 0
         cache.shift() until cache.length is 0 or cache[0].expires >= now
       if cache.length == 0 or (item for item in cache when item.issue is issue).length == 0
-        cache.push({issue: issue, expires: now + 30000})
+        cache.push({issue: issue, expires: now + 120000})
         msg.http("https://jira.sakaiproject.org/rest/api/2.0.alpha1/issue/" + issue)
           .get() (err, res, body) ->
             try
