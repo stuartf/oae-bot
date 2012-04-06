@@ -2,7 +2,7 @@
 module.exports = (robot) ->
   cache = []
 
-  robot.hear /(KERN-|SAKIII-|OAEWDGT-|OAEBLDR-)(\d+)/gi, (msg) ->
+  robot.hear /(KERN-|SAKIII-|OAEWDGT-|OAEBLDR-|SPARSE-)(\d+)/gi, (msg) ->
     for i in msg.match
       issue = i.toUpperCase()
       now = new Date().getTime()
