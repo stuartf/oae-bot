@@ -1,1 +1,1 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "polite.coffee", "remind.coffee", "rubygems.coffee", "isup.coffee", "karma.coffee"]
+["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "polite.coffee", "remind.coffee", "rubygems.coffee", "isup.coffee", "karma.coffee", "store-messages-couchdb.coffee"]
