@@ -90,7 +90,7 @@ setupInterval = =>
   setInterval sendlogs, msPerDay
 
 setTimeout sendlogs, midnight
-setTimeout setInterval, midnight
+setTimeout setupInterval, midnight
 
 module.exports = (robot) ->
   console.log "IRC Log mailer loaded"
