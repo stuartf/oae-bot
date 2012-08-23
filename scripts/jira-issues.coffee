@@ -40,7 +40,7 @@ module.exports = (robot) ->
               .get() (err, res, body) ->
                 try
                   key = JSON.parse(body).key
-                  msg.send "[" + key + "] " + JSON.parse(body).fields.summary.value
+                  msg.send "[" + key + "] " + JSON.parse(body).fields.summary
                   urlRegex = new RegExp(jiraUrl + "[^\\s]*" + key)
                   if not msg.message.text.match(urlRegex)
                     msg.send jiraUrl + "/browse/" + key
