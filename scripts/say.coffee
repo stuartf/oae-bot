@@ -1,3 +1,7 @@
+# Description:
+#   Echo stuff posted to /hubot/say
+#
+
 module.exports = (robot) ->
   robot.router.post "/hubot/say", (req, res) ->
     room = req.body.room
