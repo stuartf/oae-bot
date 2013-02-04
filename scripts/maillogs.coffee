@@ -89,8 +89,9 @@ sendEmail = (day, json) =>
 setupInterval = =>
   setInterval sendlogs, msPerDay
 
-setTimeout sendlogs, midnight
-setTimeout setupInterval, midnight
+# Disable emailing for now
+# setTimeout sendlogs, midnight
+# setTimeout setupInterval, midnight
 
 module.exports = (robot) ->
   console.log "IRC Log mailer loaded"
