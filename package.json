@@ -15,10 +15,10 @@
   },
 
   "dependencies": {
-    "hubot": "2.3.5",
-    "hubot-scripts": ">= 2.3.5",
+    "hubot": "2.5.4",
+    "hubot-scripts": ">= 2.5.4",
     "optparse": "1.0.3",
-    "hubot-irc": ">= 0.1.7",
+    "hubot-irc": ">= 0.1.17",
     "cradle": "0.6.3",
     "nodemailer": "0.3.20",
     "jsdom": "0.2.14",
