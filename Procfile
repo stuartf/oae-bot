@@ -1,1 +1,1 @@
-web: bin/hubot -a irc -n sakai-bot
+web: bin/hubot -a irc -n oae-bot
