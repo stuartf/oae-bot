@@ -7,7 +7,7 @@ module.exports = (robot) ->
     room = req.body.room
     message = req.body.message
     robot.logger.info "Message '#{message}' received for room #{room}"
-    user = robot.userForId 'broadcast'
+    user = robot.brain.userForId 'broadcast'
     user.room = room
     user.type = 'groupchat'
     robot.send user, "#{message}"
