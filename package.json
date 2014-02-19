@@ -23,7 +23,8 @@
     "nodemailer": "0.3.20",
     "jsdom": "0.2.14",
     "gitio": "1.0.1",
-    "githubot": "0.4.x"
+    "githubot": "0.4.x",
+    "gitio2": "2.0.0"
   },
 
   "engines": {
