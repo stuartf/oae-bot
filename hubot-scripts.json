@@ -1,1 +1,1 @@
-["redis-brain.coffee", "shipit.coffee", "polite.coffee", "remind.coffee", "rubygems.coffee", "isup.coffee", "karma.coffee", "store-messages-couchdb.coffee", "github-status.coffee", "github-commits.coffee", "github-issue-link.coffee", "jira-issues.coffee", "travis.coffee", "weather.coffee"]
+["redis-brain.coffee", "shipit.coffee", "polite.coffee", "remind.coffee", "rubygems.coffee", "isup.coffee", "store-messages-couchdb.coffee", "github-status.coffee", "github-commits.coffee", "github-issue-link.coffee", "travis.coffee", "weather.coffee"]

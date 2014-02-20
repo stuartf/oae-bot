@@ -15,7 +15,7 @@
   },
 
   "dependencies": {
-    "hubot": "2.6.3",
+    "hubot": "2.7.1",
     "hubot-scripts": ">= 2.5.3",
     "optparse": "1.0.3",
     "hubot-irc": ">= 0.1.17",
@@ -24,7 +24,8 @@
     "jsdom": "0.2.14",
     "gitio": "1.0.1",
     "githubot": "0.4.x",
-    "gitio2": "2.0.0"
+    "gitio2": "2.0.0",
+    "hubot-plusplus": "1.0.x"
   },
 
   "engines": {
