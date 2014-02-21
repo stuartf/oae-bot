@@ -16,9 +16,9 @@
 
   "dependencies": {
     "hubot": "2.7.1",
-    "hubot-scripts": ">= 2.5.3",
+    "hubot-scripts": ">= 2.5.8",
     "optparse": "1.0.3",
-    "hubot-irc": ">= 0.1.17",
+    "hubot-irc": ">= 0.1.26",
     "cradle": "0.6.3",
     "nodemailer": "0.3.20",
     "jsdom": "0.2.14",
