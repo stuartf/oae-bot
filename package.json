@@ -25,7 +25,8 @@
     "gitio": "1.0.1",
     "githubot": "0.4.x",
     "gitio2": "2.0.0",
-    "hubot-plusplus": "1.0.x"
+    "hubot-plusplus": "1.0.x",
+    "hubot-yubikey-invalidation": "0.0.x"
   },
 
   "engines": {
