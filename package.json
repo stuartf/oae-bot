@@ -20,13 +20,11 @@
     "gitio": "1.0.1",
     "gitio2": "2.0.0",
     "hubot": "2.11.0",
-    "hubot-irc": ">= 0.2.7",
     "hubot-plusplus": "1.0.x",
     "hubot-scripts": ">= 2.5.16",
     "hubot-slack": "^3.3.0",
     "hubot-yubikey-invalidation": "0.0.x",
     "jsdom": "0.2.14",
-    "nodemailer": "0.3.20",
     "optparse": "1.0.3"
   },
   "engines": {
