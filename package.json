@@ -1,37 +1,36 @@
 {
-  "name":        "hosted-hubot",
-  "version":     "2.3.2",
-  "author":      "GitHub Inc.",
-  "keywords":    "github hubot campfire bot",
+  "name": "hosted-hubot",
+  "version": "2.3.2",
+  "author": "GitHub Inc.",
+  "keywords": "github hubot campfire bot",
   "description": "A simple helpful Robot for your Company",
-  "licenses":     [{
-    "type":       "MIT",
-    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
-  }],
-
-  "repository" : {
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/github/hubot/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
     "type": "git",
-    "url":  "https://github.com/github/hubot.git"
+    "url": "https://github.com/github/hubot.git"
   },
-
   "dependencies": {
-    "hubot": "2.11.0",
-    "hubot-scripts": ">= 2.5.16",
-    "optparse": "1.0.3",
-    "hubot-irc": ">= 0.2.7",
     "cradle": "0.6.3",
-    "nodemailer": "0.3.20",
-    "jsdom": "0.2.14",
-    "gitio": "1.0.1",
     "githubot": "0.4.x",
+    "gitio": "1.0.1",
     "gitio2": "2.0.0",
+    "hubot": "2.11.0",
+    "hubot-irc": ">= 0.2.7",
     "hubot-plusplus": "1.0.x",
-    "hubot-yubikey-invalidation": "0.0.x"
+    "hubot-scripts": ">= 2.5.16",
+    "hubot-slack": "^3.3.0",
+    "hubot-yubikey-invalidation": "0.0.x",
+    "jsdom": "0.2.14",
+    "nodemailer": "0.3.20",
+    "optparse": "1.0.3"
   },
-
   "engines": {
     "node": "0.10.x",
     "npm": "2.3.x"
   }
 }
-
