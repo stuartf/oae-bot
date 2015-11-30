@@ -15,6 +15,7 @@
     "url": "https://github.com/github/hubot.git"
   },
   "dependencies": {
+    "chrono-node": "^1.0.10",
     "cradle": "0.6.3",
     "githubot": "1.0.x",
     "gitio": "1.0.1",
@@ -25,8 +26,9 @@
     "hubot-slack": "^3.4.0",
     "hubot-yubikey-invalidation": "0.0.x",
     "jsdom": "0.2.14",
-    "optparse": "1.0.3",
-    "lodash": "3.10.x"
+    "lodash": "3.10.x",
+    "moment": "^2.10.6",
+    "optparse": "1.0.3"
   },
   "engines": {
     "node": "0.10.x",
