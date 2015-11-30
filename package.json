@@ -25,7 +25,8 @@
     "hubot-slack": "^3.4.0",
     "hubot-yubikey-invalidation": "0.0.x",
     "jsdom": "0.2.14",
-    "optparse": "1.0.3"
+    "optparse": "1.0.3",
+    "lodash": "3.10.x"
   },
   "engines": {
     "node": "0.10.x",
