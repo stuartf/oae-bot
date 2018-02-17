@@ -19,7 +19,7 @@
     "cradle": "0.6.3",
     "githubot": "1.0.x",
     "gitio": "1.0.1",
-    "gitio2": "2.0.0",
+    "gitio2": "3.0.0",
     "hubot": "2.17.0",
     "hubot-heroku-keepalive": "^1.0.0",
     "hubot-plusplus": "1.2.x",
